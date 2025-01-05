@@ -1,0 +1,3 @@
+[submodule "external/oneko"]
+	path = external/oneko
+	url = https://github.com/ystepanoff/oneko.js.git
