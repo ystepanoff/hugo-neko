@@ -1,0 +1,4 @@
+[module]
+    [[module.mounts]]
+        source = "external/oneko"
+        target = "static/oneko"
