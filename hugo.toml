@@ -1,6 +1,6 @@
 [module]
     [[module.mounts]]
-        source = "external/oneko"
+        source = "external"
         target = "static/hugo-neko"
     [[module.mounts]]
         source = "layouts"
