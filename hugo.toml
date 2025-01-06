@@ -1,7 +1,7 @@
 [module]
     [[module.mounts]]
-        source = "extenal"
-        target = "assets"
+        source = "static"
+        target = "static"
     [[module.mounts]]
         source = "layouts"
         target = "layouts"
