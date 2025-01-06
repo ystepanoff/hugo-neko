@@ -5,16 +5,15 @@
 
 ![oneko](oneko.webp)
 
-A Hugo module that adds a cat that follows your mouse pointer around the page; it leverages a [Git submodule](https://github.com/ystepanoff/oneko.js) to 
+A Hugo module that adds a cat that follows your mouse pointer around the page; it leverages [oneko.js](https://github.com/ystepanoff/oneko.js) to 
 include the accompanying JavaScript logic and the GIF image.
 
-Original JS script author: Ariana @ https://adryd.com, https://github.com/adryd325/oneko.js
+Original oneko.js script author: Ariana @ https://adryd.com, https://github.com/adryd325/oneko.js
 
 Brief history of Neko: https://eliotakira.com/neko/
 
 ## Installation
 
-### 1. Get the `hugo-neko` module
 ```bash
 hugo mod get github.com/ystepanoff/hugo-neko@latest
 ```
