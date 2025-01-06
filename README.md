@@ -10,6 +10,8 @@ include the accompanying JavaScript logic and the GIF image.
 
 Original JS script author: Ariana @ https://adryd.com, https://github.com/adryd325/oneko.js
 
+Brief history of Neko: https://eliotakira.com/neko/
+
 ## Installation
 
 ### 1. Get the `hugo-neko` module
