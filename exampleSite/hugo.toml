@@ -1,0 +1,7 @@
+baseURL = 'http://localhost:1313/'
+defaultContentLanguage = 'en'
+contentDir = "content"
+
+[module]
+    [[module.imports]]
+        path = 'github.com/ystepanoff/hugo-neko'

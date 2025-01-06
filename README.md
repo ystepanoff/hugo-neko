@@ -14,6 +14,12 @@ Brief history of Neko: https://eliotakira.com/neko/
 
 ## Installation
 
+### 0. (If you have not already done so)
+```bash
+hugo mod init <your site>
+```
+
+### 1. Get the latest version
 ```bash
 hugo mod get github.com/ystepanoff/hugo-neko@latest
 ```
@@ -65,6 +71,11 @@ hugo mod tidy
 ### 2. As a shortcode
 ```gohtml
 {{< oneko >}}
+```
+
+## Updating to the latest version
+```
+hugo mod get -u github.com/ystepanoff/hugo-neko@latest
 ```
 
 ## Contact
