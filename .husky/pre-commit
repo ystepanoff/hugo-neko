@@ -1,0 +1,8 @@
+if [ -d "static" ]; then
+    echo "Removing existing static directory..."
+    rm -rf static
+fi
+
+git clone --depth 1 https://github.com/ystepanoff/oneko.js static/hugo-neko/
+rm -rf static/hugo-neko/.git
+git add static/hugo-neko/
