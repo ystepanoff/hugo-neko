@@ -1,7 +1,7 @@
 [module]
     [[module.mounts]]
-        source = "external"
-        target = "static/hugo-neko"
+        source = "extenal"
+        target = "assets"
     [[module.mounts]]
         source = "layouts"
         target = "layouts"
