@@ -20,25 +20,22 @@ hugo mod get github.com/ystepanoff/hugo-neko@latest
 ### 2. Import the module
 
 Edit your site's `hugo.toml` (or `hugo.yaml/hugo.json` depending on your configuration format) to import the module.
+#### hugo.toml
 ```toml
-# hugo.toml
-
 [module]
     [[module.imports]]
         path = "github.com/ystepanoff/hugo-neko"
 ```
 
+#### hugo.yaml
 ```yaml
-# hugo.yaml
-
 module:
   imports:
     - path: "github.com/ystepanoff/hugo-neko"
 ```
 
+#### hugo.json
 ```json
-// hugo.json
-
 {
   "module": {
     "imports": [
