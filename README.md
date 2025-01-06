@@ -17,6 +17,7 @@ Brief history of Neko: https://eliotakira.com/neko/
 ### 0. (If you have not already done so)
 ```bash
 hugo mod init <your site>
+hugo mod tidy
 ```
 
 ### 1. Get the latest version
