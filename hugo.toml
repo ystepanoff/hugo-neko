@@ -1,4 +1,7 @@
 [module]
     [[module.mounts]]
         source = "external/oneko"
-        target = "static/oneko"
+        target = "static/hugo-neko"
+    [[module.mounts]]
+        source = "layouts"
+        target = "layouts"
